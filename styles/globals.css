@@ -1,0 +1,12 @@
+/* Add your Google fonts imports here: */
+/* @import url('https://fonts.googleapi.com/yourSelectedGoogleFont'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add your regular CSS styles below. Example: */
+/* 
+  .classname {
+    background: url('bgimage.jpg');
+  }  
+*/
