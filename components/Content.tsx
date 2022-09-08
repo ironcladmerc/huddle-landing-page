@@ -1,6 +1,6 @@
 function Content() {
     return (
-        <div className="flex flex-col space-y-10 p-5 justify-center items-center md:items-start mx-auto w-2/3 md:w-full">
+        <div className="flex flex-col space-y-10 p-5 justify-center items-center md:items-start mx-auto w-2/3 md:w-full md:px-20">
             <div>
                 <img src="logo.svg" alt="logo" className="w-1/2" />
             </div>
@@ -20,7 +20,7 @@ function Content() {
                         connections with your users as you engage in genuine
                         discussion.
                     </p>
-                    <div className="bg-white w-2/3 py-2 rounded-full text-xs text-violet shadow-xl md:text-center md:w-1/3 md:py-3">
+                    <div className="bg-white w-2/3 py-2 rounded-full text-xs text-violet shadow-xl md:text-center md:w-1/3 md:py-3 hover:text-white hover:bg-softMagenta hover:cursor-pointer">
                         Register
                     </div>
                 </div>

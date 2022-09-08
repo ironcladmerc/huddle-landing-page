@@ -1,36 +1,58 @@
-# Next.js + Tailwind CSS Example
+# Frontend Mentor - Huddle landing page with single introductory section solution
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Notes
+## Table of contents
 
-This is a modified version of the tailwindcss example for Next.js. The following changes have been made to it:
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+    -   [Useful resources](#useful-resources)
+-   [Author](#author)
 
--   added i18n object to next.config.js to generate an html tag with language like this:
+## Overview
 
-```html
-<html lang="en"></html>
-```
+### The challenge
 
--   added example changes to styles/globals.css
--   added example changes to tailwind.config.js
--   added example components
--   remove api/hello.ts
+Users should be able to:
 
-## Deploy your own
+-   View the optimal layout for the page depending on their device's screen size
+-   See hover states for all interactive elements on the page
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ironcladmerc/next-frontendmentor-tailwind-starter&project-name=next-frontendmentor-tailwind-starter&repository-name=next-frontendmentor-tailwind-starter)
+### Screenshot
 
-## How to use
+![](./screenshot.png)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Links
 
-```bash
-npx create-next-app project-name -e https://github.com/ironcladmerc/next-frontendmentor-tailwind-starter
-```
+-   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-```bash
-yarn create next-app project-name -e https://github.com/ironcladmerc/next-frontendmentor-tailwind-starter
-```
+## My process
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Built with
+
+-   Flexbox
+-   Mobile-first workflow
+-   [Next.js](https://nextjs.org/) - React framework
+
+### What I learned
+
+I learned to not use "delete permanently" in VSCode while in WSL2 unless I really really want to delete something. I deleted my main component after I had almost finished it, so I had to rebuild it again from scratch since it got deleted and was not recoverable.
+
+I also learned how to break things down to simple problems first, then add classes to style out the details. Get the overall responsive layout working first, then worry about the details.
+
+### Useful resources
+
+-   [Aligning items in a flex container](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) - This helped me understand how to align items in a flex column, I was having trouble aligning the Huddle logo with the rest of the column items before this simple article.
+-   [Create Round Social Media Icons / Buttons using CSS
+    [Create Round Social Media Icons](https://www.kodingmadesimple.com/2014/02/how-to-create-round-social-media-icon.html) - This helped me with the general idea of using a button for the social media icons, I was struggling with how to put a circle around the fontawesome icons.
+
+## Author
+
+-   Frontend Mentor - [@ironcladmerc](https://www.frontendmentor.io/profile/ironcladmerc)
+-   Github - [@ironcladmerc](https://www.twitter.com/ironcladmerc)
