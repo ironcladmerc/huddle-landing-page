@@ -1,18 +1,16 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import Component from "../components/Component"
+import Content from "../components/Content"
 import Footer from "../components/Footer"
-import Header from "../components/Header"
 
 const Home: NextPage = () => {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center py-2">
+        <div className="flex min-h-screen flex-col justify-between mx-auto bg-violet background">
             <Head>
-                <title>Next App with Tailwind CSS</title>
-                <link rel="icon" href="/favicon.ico" />
+                <title>Huddle Landing Page</title>
+                <link rel="icon" href="/favicon-32x32.png" />
             </Head>
-            <Header />
-            <Component />
+            <Content />
             <Footer />
         </div>
     )
